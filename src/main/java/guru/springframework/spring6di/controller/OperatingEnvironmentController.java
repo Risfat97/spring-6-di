@@ -11,7 +11,7 @@ public class OperatingEnvironmentController {
         this.operatingEnvironment = operatingEnvironment;
     }
 
-    public String getDataSource() {
-        return operatingEnvironment.getDataSource();
+    public String getEnv() {
+        return operatingEnvironment.getEnv();
     }
 }

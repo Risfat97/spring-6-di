@@ -12,7 +12,7 @@ class Spring6DiApplicationTests {
 
     @Test
     public void testDefaultConfiguration() {
-        assert operatingEnvironmentController.getDataSource().equals("dev");
+        assert operatingEnvironmentController.getEnv().equals("dev");
     }
 
     @Test

@@ -13,7 +13,7 @@ public class Spring6DiApplication {
 
         OperatingEnvironmentController operatingEnvironmentController = ctx.getBean(OperatingEnvironmentController.class);
 
-        System.out.println(operatingEnvironmentController.getDataSource());
+        System.out.println(operatingEnvironmentController.getEnv());
     }
 
 }

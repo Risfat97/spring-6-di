@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 @Service("operatingEnvironmentService")
 public class DevOperatingEnvironmentImpl implements OperatingEnvironment {
     @Override
-    public String getDataSource() {
+    public String getEnv() {
         return "dev";
     }
 }
