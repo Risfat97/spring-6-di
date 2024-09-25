@@ -9,17 +9,7 @@ import org.springframework.context.ApplicationContext;
 @SpringBootTest
 class Spring6DiApplicationTests {
     @Autowired
-    private ApplicationContext ctx;
-
-    @Autowired
     private HelloController helloController;
-
-    @Test
-    public void testGettingControllerFromContext() {
-        HelloController helloCtrl = ctx.getBean(HelloController.class);
-
-        System.out.println(helloCtrl.sayHello());
-    }
 
     @Test
     public void testAutowiredController() {
